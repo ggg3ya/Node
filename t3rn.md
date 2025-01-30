@@ -61,15 +61,24 @@ Replace `<YOUR_PRIVATE_KEYS>` with yours
 ```
 export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l1rn'
 ```
-- Configure RPC URL's
+#### Configure RPC URL's
 
-You can add your custom RPC URLs or skip this step to automatically use the default RPC URLs.
-
-Change BRN RPC URL on l1rn: `export RPC_ENDPOINTS_L1RN='https://brn.rpc.caldera.xyz/'`
-
-Change RPC URL on enabled networks: `export RPC_ENDPOINTS_${NETWORK_NAME}='https://url1.io,https://url2.io'`
-
-Example for Arbitrum Sepolia: `export RPC_ENDPOINTS_ARBT='https://url1.io,https://url2.io'`
+- L1RN : 
+```
+export RPC_ENDPOINTS_L1RN='https://brn.rpc.caldera.xyz/'
+```
+- BASE SEPOLIA :
+```
+export RPC_ENDPOINTS_BSSP='https://base-sepolia-rpc.publicnode.com/'
+```
+- OP SEPOLIA :
+```
+export RPC_ENDPOINTS_OPSP='https://sepolia.optimism.io/'
+```
+- ARBITRUM SEPOLIA :
+```
+export RPC_ENDPOINTS_ARBT='https://arbitrum-sepolia-rpc.publicnode.com/'
+```
 
 ### Running in Background
 ```
