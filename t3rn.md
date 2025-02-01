@@ -3,12 +3,6 @@ by running the executor node, we will generate $BRN
 
 What is $BRN? [Read here](https://www.t3rn.io/blog/announcing-the-t3rn-airdrop-program---brn)
 
-## ONE COMMANDS INSTALLATION 
-```
-wget https://raw.githubusercontent.com/ggg3ya/Node/blob/main/t3rn.sh
-```
-
-## MANUAL INSTALLATION 
 
 ### Download Executor Binary
 - Download the executable (`tar.gz`) Executor binary file according to your OS from here: https://github.com/t3rn/executor-release/releases/
